@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#nodeEditor {
+  position: relative;
+  height: 100%;
+}
+
+.socket.number {
+  background: #96b38a;
+}
+
+.control input {
+  width: 150px;
+}
+
+.d3-node-editor.css {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.node-editor .node {
+  border-radius: 2px;
+  background: #fff;
+  border-color: #8e8e8e;
+}
+
+.node-editor .node .socket.output {
+  margin-right: -9px;
+  position: absolute;
+  bottom: -14px;
+  left: 43%;
+  right: 50%;
+}
+
+.node-editor .node .socket.input {
+  margin-left: -9px;
+  position: absolute;
+  top: -14px;
+  right: 50%;
+  left: 50%;
+}
+
+.node-editor .node .socket {
+  background-color: #449a5f;
+  width: 15px;
+  height: 15px;
+}
+
+.node-editor .node.selected {
+  background: #f7f7f7;
+  border-color: #8e8e8e;
+}
